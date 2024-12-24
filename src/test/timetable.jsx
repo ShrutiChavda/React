@@ -29,7 +29,7 @@ class Timetable extends React.Component {
                             <td>8:55 to 9:45</td>
                         </tr>
                         <tr>
-                            <td>Class/Leb Location</td>
+                            <td>Class/Lab Location</td>
                             <td>LL1</td>
                             <td>LL5</td>
                             <td>LL1</td>
@@ -53,7 +53,7 @@ class Timetable extends React.Component {
                             <td>TOC</td>
                         </tr>
                         <tr>
-                            <td>Class/Leb Location</td>
+                            <td>Class/Lab Location</td>
                             <td>LL1</td>
                             <td>LL1</td>
                             <td>201</td>
@@ -76,7 +76,7 @@ class Timetable extends React.Component {
                             <td>1:20 to 2:10</td>
                         </tr>
                         <tr>
-                            <td>Class/Leb Location</td>
+                            <td>Class/Lab Location</td>
                             <td>Library</td>
                             <td>118</td>
                             <td>Library</td>
