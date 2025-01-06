@@ -9,7 +9,11 @@ import { createRoot } from 'react-dom/client'
 // import StateXYZ from './test/Statemgmt2';
 // import StateMerge from './test/Statemgmt3';
 // import MyButton3 from "./test/purefunc2";
-import FuncComp1 from "./test/hookcomp1";
+// import FuncComp1 from "./test/hookcomp1";
+// import StateExample from './lec0601/hookexmp';
+// import StateExample2 from './lec0601/hookexmp2';
+import StateExample3 from './lec0601/hookexmp3';
+
 
 // import './index.css'
 // import App from './App.jsx'
@@ -30,6 +34,9 @@ createRoot(document.getElementById('root')).render(
     <MyButton3 abc={true} def={"hello"}/>
     <MyButton3 abc={true}/>
     <MyButton3 def={"xyzzzz"}/>  */}
-    <FuncComp1/>
+    {/* <FuncComp1/> */}
+    {/* <StateExample/> */}
+    {/* <StateExample2/> */}
+    <StateExample3/>
   </StrictMode>,
 );
