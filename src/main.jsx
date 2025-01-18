@@ -1,5 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+
 // import Purefunc from './test/purefunc';
 // import MyComponent from './test/combined';
 // import Component1 from './test/Component1'
@@ -12,8 +13,10 @@ import { createRoot } from 'react-dom/client'
 // import FuncComp1 from "./test/hookcomp1";
 // import StateExample from './lec0601/hookexmp';
 // import StateExample2 from './lec0601/hookexmp2';
-import StateExample3 from './lec0601/hookexmp3';
-
+// import StateExample3 from './lec0601/hookexmp3';
+// import ApiSimulation from './lec1801/hookuseeffect';
+import CountdownTimer from './lec1801/countdowntimer';
+// import ArrayToList from './lec1801/arraytolist';
 
 // import './index.css'
 // import App from './App.jsx'
@@ -37,6 +40,9 @@ createRoot(document.getElementById('root')).render(
     {/* <FuncComp1/> */}
     {/* <StateExample/> */}
     {/* <StateExample2/> */}
-    <StateExample3/>
+    {/* <StateExample3/> */}
+    {/* <ApiSimulation/> */}
+    <CountdownTimer/>
+    {/* <ArrayToList/> */}
   </StrictMode>,
 );
