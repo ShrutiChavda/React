@@ -15,9 +15,12 @@ import { createRoot } from 'react-dom/client'
 // import StateExample2 from './lec0601/hookexmp2';
 // import StateExample3 from './lec0601/hookexmp3';
 // import ApiSimulation from './lec1801/hookuseeffect';
-import CountdownTimer from './lec1801/countdowntimer';
+// import CountdownTimer from './lec1801/countdowntimer';
 // import ArrayToList from './lec1801/arraytolist';
-
+// import ListOfImages from './lec1801/ListofImages';
+// import UserComp1 from './lec2101/cleanup';
+// import Conditional from './lec2101/customcomp';
+import RegistrationForm from './lec2101/RegistrationForm';
 // import './index.css'
 // import App from './App.jsx'
 
@@ -42,7 +45,11 @@ createRoot(document.getElementById('root')).render(
     {/* <StateExample2/> */}
     {/* <StateExample3/> */}
     {/* <ApiSimulation/> */}
-    <CountdownTimer/>
+    {/* <CountdownTimer/> */}
     {/* <ArrayToList/> */}
+    {/* <ListOfImages/> */}
+    {/* <UserComp1/> */}
+    {/* <Conditional/> */}
+    <RegistrationForm/>
   </StrictMode>,
 );
