@@ -20,9 +20,15 @@ import { createRoot } from 'react-dom/client'
 // import ListOfImages from './lec1801/ListofImages';
 // import UserComp1 from './lec2101/cleanup';
 // import Conditional from './lec2101/customcomp';
-import RegistrationForm from './lec2101/RegistrationForm';
+// import RegistrationForm from './lec2101/RegistrationForm';
+// import CustomComponent1 from './workshop/CustomComponent1';
+// import UserContextExample from "./lec0302/file3";
+// import MultiStepForm from './lec/MultiStepForm';
+import ReducerExmp from './lec2402/reducerexmp';
+
 // import './index.css'
 // import App from './App.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -50,6 +56,16 @@ createRoot(document.getElementById('root')).render(
     {/* <ListOfImages/> */}
     {/* <UserComp1/> */}
     {/* <Conditional/> */}
-    <RegistrationForm/>
+    {/* <RegistrationForm/> */}
+    {/* <CustomComponent1
+      fontSize="20px"
+      backgroundColor="#e0f7fa"
+      fontColor="#004d40"
+      fontStyle="italic"
+      items={['React', 'JavaScript', 'CSS', 'HTML']}
+    /> */}
+    {/* <UserContextExample/> */}
+    {/* <MultiStepForm/> */}
+    <ReducerExmp/>
   </StrictMode>,
 );
