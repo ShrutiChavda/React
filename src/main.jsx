@@ -24,7 +24,8 @@ import { createRoot } from 'react-dom/client'
 // import CustomComponent1 from './workshop/CustomComponent1';
 // import UserContextExample from "./lec0302/file3";
 // import MultiStepForm from './lec/MultiStepForm';
-import ReducerExmp from './lec2402/reducerexmp';
+// import ReducerExmp from './lec2402/reducerexmp';
+import ReducerDependency from './lec1003/reducerexmp2';
 
 // import './index.css'
 // import App from './App.jsx'
@@ -66,6 +67,7 @@ createRoot(document.getElementById('root')).render(
     /> */}
     {/* <UserContextExample/> */}
     {/* <MultiStepForm/> */}
-    <ReducerExmp/>
+    {/* <ReducerExmp/> */}
+  <ReducerDependency/>
   </StrictMode>,
 );
